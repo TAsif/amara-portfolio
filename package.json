@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwind build src/style.css -o src/output.css"
+    "build:css": "tailwind build src/style.css -o src/output.css",
+    "build:prod": "npx tailwindcss build src/style.css -o src/output.css"
   },
   "keywords": [],
   "author": "",
