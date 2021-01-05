@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="output.css">
+    <title>Amara Majeed Portfolio</title>
+    <style>
+      #scroller::-webkit-scrollbar {
+        width: 5px;
+        cursor: pointer;
+      }
+      #scroller::-webkit-scrollbar-track {
+        visibility: hidden;
+        cursor: pointer;
+      }
+      #scroller::-webkit-scrollbar-thumb {
+        cursor: pointer;
+        background-color: white;
+        border-radius: 0.25rem;
+      }
+    </style>
+  </head>
+  <body class="bg-black" id="scroller">
+    <h1 class="mt-4 mx-2 p-6 text-2xl tracking-tighter font-semibold md:mx-48 md:text-5xl bg-white bg-opacity-50 text-white rounded-lg text-center">Amara Majeed Portfolio</h1>
+    
+    <section class="mt-4 tracking-tighter md:mx-48 bg-white bg-opacity-25 text-white rounded-lg flex flex-col">
+      <h2 class="p-8 text-xl bg-white font-medium md:text-4xl bg-opacity-25 text-center rounded-lg">ELECTRONICS I – DEC 2020</h2>
+      <p class="p-4 text-lg">
+        The aim of the design project was to work in groups of four and build an ultrasonic range finder utilizing the many different
+        aspects taught throughout the course. The range finder should have been able to detect where an object was in proximity to the
+        ultrasonic transducers. The time of flight was to be measured in centimeters and displayed on 7 – segment LED displays.
+        Figure 1 shows the circuit diagram of the range finder and figure 2 illustrates the circuit made on breadboards.
+      </p>
+      <p class="p-4 pt-0 text-lg">
+        This was a very challenging design project as theoretically the circuit should have worked, but experimentally it did not work.
+        There were three main parts to the circuit, and some of the parts worked on their own but not as a whole. The error could have
+        been because of the RS flip flop that was made. There may have been a disallowed state that was being inputted so the flip flop
+        did not output anything. If we were to design a range finder again, we would use a D flip flop as there are no disallowed
+        states and an output would be produced.
+      </p>
+      <p class="p-4 pt-0 text-lg">
+        Overall, the project taught us about the different electronic components used in applications. We learned how to manage our time
+        and collaborate as a group remotely. 
+      </p>
+      <div class="m-6 flex justify-around">
+        <figure class="p-1">
+          <img class="w-auto" src="images/CDiagramUltrasonicRangeFinder.png" alt="Circuit Diagram of Ultrasonic Range Finder">
+          <figcaption class="pb-6">Figure 1 | Circuit Diagram of Ultrasonic Range Finder</figcaption>
+        </figure>
+        <figure class="p-1">  
+          <img class="w-3/4" src="images/RangeFinderBreadboard.png" alt="RangeFinderBreadboard">
+          <figcaption>Figure 2 | Ultrasonic Range Finder Circuit on Breadboard</figcaption>
+        </figure>
+      </div>
+    </section>
+    
+    <section class="mt-4 tracking-tighter md:mx-48 bg-white bg-opacity-25 text-white rounded-lg flex flex-col">
+      <h2 class="p-8 text-xl bg-white font-medium md:text-4xl bg-opacity-25 text-center rounded-lg">ANALOG AND DIGITAL CIRCUITS – APR 2020</h2>
+      <p class="p-4 text-lg">
+        The aim for the design project was to utilize JK flip fops to design a digital circuit that would display my student number on a 
+        7 – segment display. Truth tables and k-maps were made to obtain the results. Figure 3 shows the simulated circuit in Multisim.
+      </p>
+      <p class="p-4 pt-0 text-lg">
+        The design project started at the beginning of the pandemic, so the project needed to be simulated on Multisim rather than being
+        built on breadboards. I built each bit of my student number separately and then put everything together. The challenge was having
+        the whole circuit working properly. It took a lot of rebuilding and troubleshooting as it was the first-time using Multisim in
+        depth.
+      </p>
+      <p class="p-4 pt-0 text-lg">
+        Overall, I was able to display my student number on the 7 – segment LED displays and I gained an understanding of digital systems.
+      </p>
+      <div class="m-6 flex justify-evenly">
+        <figure>
+          <img class="w-3/4" src="images/MultisimDProject.png" alt="MultisimDProject">
+          <figcaption>Figure 3 | Multisim of Design Project</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="mt-4 mb-4 tracking-tighter md:mx-48 bg-white bg-opacity-25 text-white rounded-lg flex flex-col">
+      <h2 class="p-8 text-xl bg-white font-medium md:text-4xl bg-opacity-25 text-center rounded-lg">ENGINEERING DESIGN AND GRAPHICS – APR 2019</h2>
+      <p class="p-4 text-lg">
+        The aim of the design project was to prototype a gripping apparatus to act as a right hand prosthesis. A thumb and forefinger
+        needed to be connected to a gear train mechanism driven by a single motor. The thumb and forefinger were to meet in a specified
+        workspace and a specific gear ratio needed to be achieved. Figure 4 shows the simulated design in Autodesk Inventor and figure 5
+        illustrates the 3D printed prosthetic.
+      </p>
+      <p class="p-4 pt-0 text-lg">
+        A challenge we faced was in the preliminary designs where we had to design the gear train to match the specified gear ratio. It
+        took a lot of calculations and guessing to get the right combination of gears. Another challenge faced was printing the gears as
+        we had limited lab time to print and the printers would malfunction while the smaller gears were being printed. To fix this, we
+        slowed down the print time and scaled the it down and the gears printing properly.
+      </p>
+      <p class="p-4 pt-0 text-lg">
+        Overall, the design worked as we had wanted it to and all of the constraints were met. I learned how to read CAD drawings simulate
+        designs. 
+      </p>
+      <div class="m-6 flex justify-evenly flex-col">
+        <figure class="p-1">
+          <img class="w-auto" src="images/ModelDAutodeskInventor.png" alt="ModelDAutodeskInventor">
+          <figcaption>Figure 4 | Model of Design in Autodesk Inventor</figcaption>
+        </figure>
+        <figure class="p-1 pt-2 flex flex-row flex-wrap">
+          <img class="p-1 w-3/5" src="images/3DPrintedModel1.png" alt="3DPrintedModel1">
+          <img class="p-1 w-2/5" src="images/3DPrintedModel2.png" alt="3DPrintedModel2">
+          <figcaption>Figure 5 | 3D printed model of a right - hand prosthesis</figcaption>
+        </figure>
+      </div>
+    </section>
+  </body>
+</html>
