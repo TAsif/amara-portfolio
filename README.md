@@ -1,2 +1,0 @@
-# amara-portfolio
-Portfolio
